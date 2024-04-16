@@ -1,0 +1,164 @@
+:root {
+  --color-default: #222222;
+  --color-primary: #3251a2;
+  --color-secondary: #8cecf8;
+}
+
+body {
+  background-color: rgba(221, 243, 255, 0.17);
+}
+
+.menu li a {
+  transition: 0.4s;
+  font-size: 1rem;
+  padding-right: 1rem;
+}
+
+.menu li a:hover {
+  font-size: 1.3rem;
+}
+
+.texto {
+  font-size: 1.2em;
+  text-align: justify;
+  color: rgb(50, 50, 50);
+}
+
+.footer {
+  margin-top: 10rem;
+}
+.footer a {
+  transition: 0.4s;
+}
+.footer a:hover {
+  font-size: 1.3rem;
+}
+
+.section-header {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.section-header h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-bottom: 13px;
+  position: relative;
+}
+
+.section-header h2:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 5rem;
+  height: 3px;
+  background: var(--color-primary);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.section-header p {
+  margin-bottom: 0;
+  color: #6f6f6f;
+}
+
+#nosotros {
+  background-color: white;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  
+}
+
+
+#noticias {
+  background-color: #f9f9f9;
+  font-size: 10px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#noticias img {
+  width: 18rem;
+  border-top-left-radius: 1.2rem;
+  border-top-right-radius: 1.2rem;
+  transition: 0.5s;
+}
+#noticias .card {
+  width: 18rem;
+  border-radius: 1.2rem;
+  transition: 0.5s;
+  text-align: left;
+}
+
+#noticias .card:hover img {
+  width: 19rem;
+  font-size: 0.8rem;
+}
+
+#noticias .card:hover {
+  width: 19rem;
+  font-size: 0.8rem;
+
+  box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.boton {
+  color: #318aac !important;
+  font-size: 1rem;
+  padding: 0.3em 0.5em;
+  background: rgba(0, 0, 0, 0);
+  border: 2px solid;
+  border-color: #318aac;
+  text-decoration: none;
+  transition: all 1s ease;
+}
+
+#noticias .card:hover .boton {
+  margin-left: 25%;
+}
+.boton:hover {
+  background: #318aac;
+  color: #fff !important;
+}
+
+#contacto {
+  padding-top: 5rem;
+}
+.contacto {
+  border-radius: 1.2rem;
+  box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.info {
+  background-color: #318aac !important;
+  color: white;
+  padding: 1rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.form {
+  margin-top: 1rem;
+  margin-right: 3rem;
+  margin-bottom: 1rem;
+}
+
+#carreras {
+  padding-top: 5rem;
+  background-color: white;
+  padding-bottom: 5rem;
+}
+
+.carreras{
+  transition: 0.5s;
+  height: 30em;
+  width: 95%;
+  text-align: justify;
+  
+}
+.carreras:hover{
+  width: 100%;
+}
